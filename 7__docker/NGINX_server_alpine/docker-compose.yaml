@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: nginx:alpine
+    container_name: nginx_server_alpine
+    ports:
+    - "8081:80"
+    volumes:
+    - .:/usr/share/nginx/html
+
+# Расположить в корне сайта
