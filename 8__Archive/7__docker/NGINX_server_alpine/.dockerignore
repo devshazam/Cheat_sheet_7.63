@@ -1,0 +1,6 @@
+.dockerignore
+docker-compose.yaml
+node_modules
+# for REACT
+build
+npm-debug.log
